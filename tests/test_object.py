@@ -9,8 +9,8 @@ from endpoints.model2 import Model2
 def access_token():
     auth_endpoint = Auth()
     credentials = {
-        "username": "samsung@ffin.credit",
-        "password": "7F]{mJbHr%F=QrY"
+        "username": "",
+        "password": ""
     }
     auth_endpoint.access_token
     auth_endpoint.get_token(credentials=credentials)
@@ -56,7 +56,7 @@ def test_apply_lead(access_token):
         "email": "ksks555@mail.ru"
     }
     response = requests.post(
-        'https://fastcash-back.trafficwave.kz/ffc-api-public/universal/apply/apply-lead',
+        'https://fastcash-back.kz/ffc-api-public/universal/apply/apply-lead',
         json=req_body,
         headers=headers
     )
