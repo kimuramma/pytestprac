@@ -53,7 +53,7 @@ def test_apply_lead(access_token):
             "reference_id": "4sd65a4s5d4a",
             "delivery_address": ""
         },
-        "email": "ksks555@mail.ru"
+        "email": "ksks555@mail.r"
     }
     response = requests.post(
         'https://fastcash-back.kz/ffc-api-public/universal/apply/apply-lead',
