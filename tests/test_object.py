@@ -56,7 +56,7 @@ def test_apply_lead(access_token):
         "email": "ksks555@mail.r"
     }
     response = requests.post(
-        'https://fastcash-back.kz/ffc-api-public/universal/apply/apply-lead',
+        'https://fastcash-back.trafficwave.kz/ffc-api-public/universal/apply/apply-lead',
         json=req_body,
         headers=headers
     )
